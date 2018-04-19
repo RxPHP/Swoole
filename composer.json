@@ -1,0 +1,47 @@
+{
+  "name": "rx/swoole",
+  "type": "library",
+  "description": "RxPHP Swoole",
+  "keywords": [
+    "rxphp",
+    "reactivex",
+    "rx.php",
+    "swoole"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Dan",
+      "email": "davidwdan@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Matt Bonneau",
+      "email": "matt@bonneau.net",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rx\\Swoole\\": "src/"
+    },
+    "files": [
+      "src/bootstrap.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rx\\Swoole\\Tests\\": "tests/",
+      "Rx\\": "vendor/reactivex/rxphp/test/Rx"
+    },
+    "files": [
+      "vendor/reactivex/rxphp/test/helper-functions.php"
+    ]
+  },
+  "require": {
+    "reactivex/rxphp": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
