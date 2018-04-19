@@ -4,8 +4,10 @@ This project allows you to use RxPHP with Swoole.
 
 ## Installation
 
-First, install swoole
-Then install rx/swoole
+First, install [swoole](https://www.swoole.co.uk/)
+
+Then add rx/swoole to your project with composer:
+
 ```bash
     composer require rx/swoole
 ```
