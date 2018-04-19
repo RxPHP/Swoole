@@ -69,8 +69,8 @@ final class Http
     private static function createClient($url)
     {
         $urlParts = parse_url($url);
-        $secure   = 'wss' === substr($url, 0, 3);
-        $port     = $urlParts['port'] ?: ($secure ? 443 : 80);
+        $secure   = 'https' === substr($url, 0, 3);
+        $port     = $urlParts['port'] ?? ($secure ? 443 : 80);
 
         $cli = new \Swoole\Http\Client($urlParts['host'], $port);
 

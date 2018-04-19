@@ -1,0 +1,3 @@
+https://www.google.com:80/
+https://www.facebook.com:80/
+https://www.microsoft.com:80/

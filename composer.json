@@ -43,6 +43,7 @@
     "ext-swoole": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.0"
+    "phpunit/phpunit": "^6.0",
+    "rx/operator-extras": "^2.1"
   }
 }
